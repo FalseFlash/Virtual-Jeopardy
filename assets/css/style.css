@@ -1,0 +1,47 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+
+}
+
+header {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	padding: 30px;
+	background: #356AA0;
+	font-size: 18px;
+	color: #FFF;
+}
+
+main {
+	margin-top: 120px;
+}
+
+.game-tiles {
+	padding: 50px;
+	margin-bottom: 25px;
+	cursor: pointer;
+	text-align: center;
+}
+
+.game-tiles:hover {
+	background: #F4F6F6;
+}
+
+.game-tiles:hover {
+	color: dodgerblue;
+}
+
+#question p {
+	margin-top: 50px;
+	font-size: 22px;
+	text-transform: capitalize;
+}
+
+#gameAnswer {
+	margin-top: 25px;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Virtual Jeopardy</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="col-xs-5">Virtual Jeopardy</div>
+            <div class="pull-right">
+                <span id="wins" class="col-xs-3">Won: 0</span>
+                <span id="losses" class="col-xs-3">Lost: 0</span>
+                <span id="missed" class="col-xs-3">Miss: 0</span>
+            </div>
+        </div>
+    </header>
+    <main class="container text-center">
+        <div id="countdown"></div>
+        <div id="gameBoard"></div>
+        <div id="question"></div>
+        <div id="gameAnswer"></div>
+        <div id="guess" style="display: none;">
+            <form class="form-inline">
+                <div class="form-group">
+                    <div class="input-group">
+                        <div class="input-group-addon">Answer</div>
+                        <input type="text" class="form-control" id="gameGuess">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="assets/js/main.js"></script>
+    </footer>
+</body>
+</html>
